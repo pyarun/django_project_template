@@ -4,23 +4,23 @@
 -r production.txt
 
 # Deployment
-Fabric
+# Fabric
 
 # Documentation
-Sphinx
+#Sphinx
 
 # Testing
-nose
-mock
-django-nose
-coverage
-pep8
-pylint
-django-discover-runner
+# nose
+# mock
+# django-nose
+# coverage
+# pep8
+# pylint
+# django-discover-runner
 
 #django-discover-runner==0.4
 
 # Admin
 django-debug-toolbar
 # There are useful panels for debug-toolbar, but have not quite been updated yet for 1.5
-#-e git://github.com/playfire/django-debug-toolbar-user-panel#egg=django_debug_toolbar_user_panel-dev
+-e git://github.com/playfire/django-debug-toolbar-user-panel#egg=django_debug_toolbar_user_panel-dev
